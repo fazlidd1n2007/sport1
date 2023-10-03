@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+
+
+
+.form {
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+.label {
+    font-size: 40px
+}
+
+
+.heading{
+    font-size: 70px;
+}
+
+
+
+.form__span {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 3px solid black;
+    transform: translateY(10px);
+}
+
+
+
+.form__input:checked+ .form__span {
+    background-image: url(../img/table-tennis.png);
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    background-size: contain;
+}
+
+
+
+.form__inputt:checked+ .form__span {
+    background-image: url(../img/basketball-ball.png);
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    background-size: contain;
+}
+
+
+
+.form__input1:checked+ .form__span {
+    background-image: url(../img/volleyball-ball.png);
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    background-size: contain;
+    background-position: 11px;
+}
+
+
+
+.form__input2:checked+ .form__span {
+    background-image: url(../img/hockey-puck.png);
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    background-size: contain;
+   
+}
+
+
+
+.form__button {
+    width: 260px;
+    height: 70px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: antiquewhite;
+    font-size: 30px;
+}
+
